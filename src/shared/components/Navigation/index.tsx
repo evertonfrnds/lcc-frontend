@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, NavigationContainer } from "./styles";
 
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Navigation: React.FC = () => {
   return (
@@ -9,12 +9,12 @@ const Navigation: React.FC = () => {
       <NavigationContainer>
         <ul>
           <li>
-            <Link to="/" className="active">
-              Dashboard
-            </Link>
+            <NavLink to="/" exact>
+              Painel de controle
+            </NavLink>
           </li>
           <li>
-            <Link to="/products">Produtos</Link>
+            <NavLink to="/products">Produtos</NavLink>
           </li>
         </ul>
       </NavigationContainer>

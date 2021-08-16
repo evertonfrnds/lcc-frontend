@@ -11,7 +11,7 @@ function useServiceHttp<T = any>({ baseEntity }: ServiceConfig) {
   const baseUrl = `/${baseEntity}`;
 
   const getEntities = useCallback(async (): Promise<T[]> => {
-    const response = await api.get(baseUrl);
+    const response = await api.get(baseEntity);
     const data = response.data;
 
     return data;

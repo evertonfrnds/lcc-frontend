@@ -1,8 +1,13 @@
 import React from "react";
-import { Switch } from "react-router";
+import { Route, Switch } from "react-router";
 import Header from "../../shared/components/Header";
 import Navigation from "../../shared/components/Navigation";
+import Products from "../Products";
 
+
+function Home() {
+  return <div>Home</div>
+}
 const Root: React.FC = () => {
   return (
     <div>
@@ -10,7 +15,10 @@ const Root: React.FC = () => {
       <Navigation />
       <div className="switch">
         <div className="container">
-          <Switch></Switch>
+          <Switch>
+            <Route exact path="/" component={Home}/>
+            <Route exact path="/products" component={Products}/>
+          </Switch>
         </div>
       </div>
     </div>
