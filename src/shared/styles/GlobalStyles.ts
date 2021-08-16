@@ -17,4 +17,17 @@ export default createGlobalStyle`
 
     font-family: 'Roboto', sans-serif;
   }
+
+  .switch {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 1226px;;
+    
+    padding: 48px;
+  }
 `;

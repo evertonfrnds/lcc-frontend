@@ -8,8 +8,8 @@ export const Container = styled.div`
 
   display: flex;
   justify-content: center;
-`;
 
+`;
 
 export const HeaderContainer = styled.div`
   /* background-color: white; */
@@ -26,4 +26,4 @@ export const HeaderContainer = styled.div`
     color: #e4e4e4;
     letter-spacing: 1.5px;
   }
-`
+`;
