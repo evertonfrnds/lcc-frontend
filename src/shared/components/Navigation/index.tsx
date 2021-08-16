@@ -8,11 +8,11 @@ const Navigation: React.FC = () => {
     <Container>
       <NavigationContainer>
         <ul>
-          <li>
+          {/* <li>
             <NavLink to="/" exact>
               Painel de controle
             </NavLink>
-          </li>
+          </li> */}
           <li>
             <NavLink to="/products">Produtos</NavLink>
           </li>
