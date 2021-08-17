@@ -42,9 +42,9 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## Screens
 
-![Tela de lista de produtos](https://github.com/evertonfrnds/lcc-frontend/assets/tela1lcc.png)
+![Tela de lista de produtos](https://github.com/evertonfrnds/lcc-frontend/blob/master/assets/tela1lcc.png)
 
-![Tela de adicionar/editar produto](https://github.com/evertonfrnds/lcc-frontend/assets/tela2lcc.png)
+![Tela de adicionar/editar produto](https://github.com/evertonfrnds/lcc-frontend/blob/master/assets/tela2lcc.png)
 
 
 ## Learn More
